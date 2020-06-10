@@ -1,0 +1,273 @@
+
+body,
+header,
+div,
+figure,
+img,
+nav,
+ul,
+ol,
+li,
+a,
+section,
+h1,h2,h3,h4,h5,h6,
+strong,
+br,
+small,
+article,
+p{
+    margin: 0px;
+    border: 0px solid red;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #FAFAFA;
+}
+
+.header{
+    background-color: #1b2127;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1000px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.header-logo{
+    width: 150px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 0px 20px;
+    display: inline;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    background-color: #1b2127;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    padding: 20px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.2px;
+}
+
+h1 strong{
+    color:#026fff;  
+}
+
+.hero-image{
+    object-fit: cover;
+}
+
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.project{
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.project-course{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+.project-date{
+    margin: 10px 0px;
+}
+
+.project-date strong{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+
+.project-date small{
+    font-size: smaller;
+}
+
+.project-url{
+    margin: 10px 0px;
+}
+
+.project-url small{
+    font-size: smaller;
+}
+
+.project-url strong{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+
+.project-description{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.event-list{
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+}
+
+.event{
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #F4FBFF;
+}
+
+.event-imageContainer{
+    margin: 0px;
+}
+
+.event-detail{
+    /* border: 1px solid red; */
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.event-title{
+    padding: 20px 0px;
+}
+
+.event-description{
+    margin: 20px 0px;
+}
+
+.event-url{
+    border: 1px solid #056FFF;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056FFF;
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: #056FFF;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    border-radius: 5px;
+    background-size: 15px 15px;
+    background-image: url(../images/envelope.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter{
+    background-image: url(../images/twitter.svg);
+}
+.social-link.facebook{
+    background-image: url(../images/facebook.svg);
+}
+.social-link.github{
+    background-image: url(../images/github.svg);
+}
+.social-link.instagram{
+    background-image: url(../images/instagram.svg);
+}
+
+.footer{
+    color: white;
+    background-color: #1B2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
+}
+
+.container-detail{
+    margin: 10px;
+}
